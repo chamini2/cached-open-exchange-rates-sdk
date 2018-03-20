@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/chamini2/cached-open-exchange-rates-sdk#readme",
   "dependencies": {
+    "lodash.clone": "^4.5.0",
     "lowdb": "^1.0.0",
     "moment": "^2.21.0",
     "open-exchange-rates": "^0.3.0"
