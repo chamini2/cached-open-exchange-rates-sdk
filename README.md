@@ -22,8 +22,3 @@ await oxr.request(); // Directly requests from OXR
 await oxr.cached(); // Tries the cache, throws an error if there is no cached value
 await oxr.cachedOrRequest(); // Tries the cache and requests from OXR if is not present
 ```
-
-# To-do
-
-- [ ] Tree-shaking (Rollup?)
-- [ ]
