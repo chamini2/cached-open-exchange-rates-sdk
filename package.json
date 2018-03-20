@@ -1,0 +1,38 @@
+{
+  "name": "cached-open-exchange-rates",
+  "version": "0.0.1",
+  "description": "Open Exchange Rates SDK that caches results to avoid hitting the usage limit",
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "rm -r lib || true",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chamini2/cached-open-exchange-rates-sdk.git"
+  },
+  "keywords": [
+    "oxr",
+    "open-exchange-rates",
+    "exchange",
+    "cache",
+    "sdk",
+    "money",
+    "exchange-rate",
+    "currency"
+  ],
+  "author": "Matteo Ferrando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chamini2/cached-open-exchange-rates-sdk/issues"
+  },
+  "homepage": "https://github.com/chamini2/cached-open-exchange-rates-sdk#readme",
+  "dependencies": {
+    "lowdb": "^1.0.0",
+    "moment": "^2.21.0",
+    "open-exchange-rates": "^0.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
