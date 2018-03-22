@@ -1,6 +1,6 @@
 {
   "name": "cached-open-exchange-rates",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Open Exchange Rates SDK that caches results to avoid hitting the usage limit",
   "main": "lib/index.js",
   "scripts": {
